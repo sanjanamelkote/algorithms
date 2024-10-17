@@ -7,8 +7,8 @@ def selection_sort(arr: list):
     and swapping it with the first unsorted element of an array,
     continuing this proccess until the whole array is sorted
 
-    Time Complexity: O(n) -> we are going through the whole array once O(n) and calling min on the unsorted portion of the array O(n) -> O(2n) -> O(n)
-    Space: O(n) because of the sorted array splicing
+    Time Complexity: O(n ^ 2) -> we are going through the whole array once O(n) and calling min on the unsorted portion of the array O(n)
+    Space: O(1) -> sorting in place
     
     """
 
